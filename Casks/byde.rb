@@ -1,6 +1,6 @@
 cask "byde" do
-  version "1.0"
-  sha256 "bcb91d371bec7a10ee9561090ead89e5dc39f10ddd1e11193f30340e07f56c18"
+  version "1.1"
+  sha256 "fcef8287fa7cbadce9d53781595962dc8fd781b28b05246fa66a6991de419fc4"
 
   url "https://github.com/joshuakaufman/byde/releases/download/v#{version}/Byde-#{version}.dmg"
   name "Byde"
