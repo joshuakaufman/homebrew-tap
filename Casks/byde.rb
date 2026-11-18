@@ -15,6 +15,8 @@ cask "byde" do
     run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Byde.app"]
   end
 
+  uninstall quit: "org.joshuakaufman.byde"
+
   zap trash: [
     "~/Library/Application Support/Byde",
     "~/Library/Preferences/org.joshuakaufman.byde.plist",
